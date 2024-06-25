@@ -20,19 +20,19 @@ const wind_speed = document.getElementById('wind-speed');
 
 	 switch(Weather_data.weather[0].main){
 		case 'Clouds': 
-		Weather_img.src = "images/clouds.png";
+		Weather_img.src = "clouds.png";
 		break;
 		case 'Clear': 
-		Weather_img.src = "images/clear.png";
+		Weather_img.src = "clear.png";
 		break;
 		case 'Rain': 
-		Weather_img.src = "images/rain.png";
+		Weather_img.src = "rain.png";
 		break;
 		case 'Mist': 
-		Weather_img.src = "images/mist.png";
+		Weather_img.src = "mist.png";
 		break;
 		case 'Snow': 
-		Weather_img.src = "images/snow.png";
+		Weather_img.src = "snow.png";
 		break;
 	 }
 	 console.log(Weather_data);
